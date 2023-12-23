@@ -2,7 +2,7 @@
 layout: page
 title: portfolio
 permalink: /portfolio/
-description: A growing collection of your cool projects.
+description: Here is my portfolio sectioned in to different aspects along with some description.
 nav: true
 nav_order: 2
 display_categories: [technical, creative, traditional]
