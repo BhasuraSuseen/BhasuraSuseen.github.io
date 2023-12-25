@@ -3,8 +3,8 @@ layout: page
 title: Sketch
 description: a project with no image
 img: assets/img/sketch_1.jpg
-importance: 4
-category: traditional
+importance: 6
+category: Art
 ---
 
 

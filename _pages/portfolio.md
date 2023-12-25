@@ -5,8 +5,11 @@ permalink: /portfolio/
 description: Here is my portfolio sectioned in to different aspects along with some description.
 nav: true
 nav_order: 2
-display_categories: [technical, creative, traditional]
+display_categories: [Games, Art, 3D, 2D]
 horizontal: false
+toc:
+  sidebar: left
+  
 
 ---
 
