@@ -4,7 +4,7 @@ title: SAF-TAC (2019 - 2022)
 description: VR/Desktop multiplayer platform for simulation and training. 
 img: assets/img/workProject.jpg
 importance: 1
-category: Professional
+category: Software_Projects
 giscus_comments: false
 ---
 Tools & Technologies: Unreal Engine 4, C++, UE4 Blueprint, Blender.

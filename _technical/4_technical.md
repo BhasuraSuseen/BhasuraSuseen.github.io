@@ -3,8 +3,8 @@ layout: page
 title: Face Detection in Large Distances (FaDiLD) (Spring 2022)
 description: 3D sculpting, retopology, texturing, riging.
 img: assets/img/facedetection.png
-importance: 3
-category: Other
+importance: 4
+category: Software_Projects
 ---
 
 

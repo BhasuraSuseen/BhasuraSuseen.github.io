@@ -4,7 +4,7 @@ title: Interactive VR Volume Rendering to explore medical data. (Fall 2022)
 description: 3D sculpting, retopology, texturing, riging.
 img: assets/img/volume_1.png
 importance: 3
-category: Other
+category: Software_Projects
 ---
 
 
