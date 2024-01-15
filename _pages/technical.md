@@ -1,6 +1,6 @@
 ---
 layout: page
-title: technical
+title: Technical_Projects
 permalink: /technical/
 description: Here is my technical portfolio sectioned in to different aspects along with some description.
 nav: true

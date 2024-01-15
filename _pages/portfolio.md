@@ -1,6 +1,6 @@
 ---
 layout: page
-title: portfolio
+title: Portfolio
 permalink: /portfolio/
 description: Here is my portfolio sectioned in to different aspects along with some description.
 nav: true

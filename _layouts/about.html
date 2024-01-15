@@ -28,19 +28,31 @@ layout: default
               class=profile_image_class
               alt=page.profile.image
               cache_bust=true -%}
+              
             {% endif -%}
             {%- if page.profile.more_info %}
             <div class="more-info">
               {{ page.profile.more_info }}
             </div>
+              
             {%- endif %}
           </div>
           {%- endif %}
 
           <div class="clearfix">
             {{ content }}
-          </div>
+            <!-- Social -->
+            {%- if page.social %}
+              <a href="https://www.linkedin.com/in/bhasura-gunawardhana/" title="linkedin" style="font-size: 25px"> <i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://gitlab.com/users/BhasuraSuseen/activity" title="GitLab" style="font-size: 25px"> | <i class="fa-brands fa-gitlab"></i></a>
+              <a href="https://github.com/BhasuraSuseen" title="GitHub" style="font-size: 25px"> | <i class="fa-brands fa-github"></i></a>
+              <a href="https://www.behance.net/bhasurasd682" title="behance" style="font-size: 25px"> | <i class="fa-brands fa-behance"></i></a>
+              <a href="https://www.youtube.com/@azimotion2708" title="YouTube" style="font-size: 25px"> | <i class="fa-brands fa-youtube"></i></a> <br>
+              <i class="fa fa-envelope"></i><a> bhasuras@gmail.com </a>
 
+            {%- endif %}
+          </div>
+              
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
@@ -59,19 +71,7 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
-          {%- endif %}
+          
         </article>
 
 </div>

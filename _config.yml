@@ -12,7 +12,11 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  <a href="https://www.linkedin.com/in/bhasura-gunawardhana/" title="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://gitlab.com/users/BhasuraSuseen/activity" title="GitLab"> <i class="fa-brands fa-gitlab"></i></a>
+  <a href="https://github.com/BhasuraSuseen" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a href="https://www.behance.net/bhasurasd682" title="behance"><i class="fa-brands fa-behance"></i></a>
+  <a href="https://www.youtube.com/@azimotion2708" title="YouTube"><i class="fa-brands fa-youtube"></i></a> <br>
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
