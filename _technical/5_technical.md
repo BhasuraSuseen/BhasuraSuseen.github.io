@@ -4,8 +4,9 @@ title: Smart Institute Management Solution (SIMS), 2018.
 description: A web based sytem to efficiently handle academic and administrative tasks of a meadium scale institute.
 img: assets/img/sims_1.png
 importance: 5
-category: Software_Projects
+category: Web
 ---
+<br>
 <b>Technologies -</b> Node.js / Feathers / MongoDB / Angular 5 / Angular Material / Ngx Charts / AWS <br>
 <b>Role - </b> Front end implimentaition with UI/UX using Angular. Create backend functionalities for student, teacher and staff regirstraion along with QR base attendance functionalities. Added thermal prining functionality to print fee payment with class acces QR. <br>
 <b>Contributors - </b> VISHWA SUDHANTHA, SHIHAN ANURUDDHA, THARINDU ABEYWICKRAMA, ROSHAN WIJESINGHE, MADHURA HERATH.<br>

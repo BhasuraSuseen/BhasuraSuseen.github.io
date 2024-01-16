@@ -4,9 +4,9 @@ title: Hospital Office Management System, 2016.
 description: Web based Hospital office management system designed to streamline and organize various administrative tasks within a healthcare facility.  
 img: assets/img/oms.jpg
 importance: 6
-category: Software_Projects
+category: Web
 ---
-<br><br>
+<br>
 <b>Technologies -</b> HTML / CSS / JavaScript / D3.js / PHP / MySQL / Azure. <br>
 <b>Role - </b> Visit hospital stakeholders to gather requirements, contribute to requirement analysis, implement front-end visualizations using D3.js, and develop back-end mail tracking functionalities with PHP and MySQL. Manage continuous integration and deployment (CI/CD) using Git and Azure technologies. Additionally, contribute to interim and final project presentations. <br>
 <b>Contributors - </b> SAJINI RATHNAYAKE, RIDMI SHANIKA, HIMASHINI WIMALASUNDERA, SAMEERA VITHANAGE, THARINDU DHANANJAYA.<br>

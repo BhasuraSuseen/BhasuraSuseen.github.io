@@ -1,22 +1,31 @@
 ---
 layout: page
-title: Under The Ice
-description: a project with a background image and giscus comments
+title: Under The Ice, Unreal Spring Jam 2020
+description: 
 img: assets/img/UnderTheIce.png
 importance: 2
 category: Games
 giscus_comments: false
 ---
+<br>
+<b>Technologies -</b> Unreal Engnine/ C++ / Steam Multiplayer/ UMG / Blender <br>
+<b>Role - </b> Designed gameplay, implemented replicated locomotion and attacks, created the escape tower asset and its gameplay integration. Also developed and modified destructible and collectible assets, designed environments and lighting, and created UMG UI.<br>
+<b>Contributors - </b> Janith Samarathunga, Kavindu Heshan, Lahiru WIijesundara, Oshan Wickramarathne<br>
 
+<a href="https://ncalibrated.itch.io/under-the-ice" > Download the  <b>Multiplayer Game from this link</b>.</a><br>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/UnderTheIce.png" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
+        {% include figure.html path="assets/img/under_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/under_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        <!-- <div class="caption">
         This image can also have a caption. It's like magic.
-        </div>
+        </div> -->
     </div>
     
     <div class="col-sm mt-3 mt-md-0">
+         <iframe width="568" height="300" src="https://www.youtube.com/embed/azM346WMI-c" frameborder="0"> </iframe>
+   
         <p>A group of you end up trapped in an ice cave while on a trek. You must use resources in the cave to craft parts of a tower to leave the cave by using creators in the cave. But unbeknownst to the rest of you one of the members of your group has been replaced by ‘The Frozen’, an ancient being that resides in the cave. You may not be able to trust each other but must work together in order to complete the tower and leave before ‘The Frozen’ claims you. The closer you get to completing the tower the more desperate ‘The Frozen’ will become and reveal its true nature, and its desire to have you all you remain here forever Under the Ice. </p>
         <br>
         Gameplay 

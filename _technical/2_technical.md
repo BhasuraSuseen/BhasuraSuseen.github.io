@@ -4,9 +4,10 @@ title: Undergraduate Reserch - Simulation of Climbing Plants with Twining Behavi
 description: Computer graphics simulation of biomechanical behaviors, including twining and support-finding in climbing plants.
 img: assets/img/twining_1.png
 importance: 2
-category: Software_Projects
+category: Visual Computing
 giscus_comments: false
 ---
+<br>
 Thesis Submitted as a partial fulfillment of the requirements of the B.Sc. in Computer Science (Hons) program. <br>
 <b>Technologies - </b>  Unity 3D, C#, Position Based Dynamics (PBD) framework. <br>
 <b>Advisors -</b> Dr. Manjusri  Wickramasinghe,  Mr. Chathura Jayalath. <br>
