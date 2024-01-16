@@ -1,7 +1,7 @@
 ---
 layout: page
-title: All Elephants Go to Heaven, Epic Mega Jam 2020
-description: Virtual reality game designed for the Oculus Rift S and Oculus Quest, featuring an endless wave-based gameplay format. 
+title: All Elephants Go to Heaven,<br> Epic Mega Jam 2020
+description: Virtual Reality(VR) game designed for the Oculus Rift S and Oculus Quest, featuring an endless wave-based gameplay format. 
 img: assets/img/AllElephants.png
 importance: 1
 category: Games

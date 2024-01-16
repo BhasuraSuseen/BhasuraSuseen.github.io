@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Under The Ice, Unreal Spring Jam 2020
-description: 
+title: Under The Ice, <br> Unreal Spring Jam 2020
+description: A multiplayer game where players must cooperate to escape a trapped ice cave, with the twist that one of them is secretly an enemy.
 img: assets/img/UnderTheIce.png
 importance: 2
 category: Games
