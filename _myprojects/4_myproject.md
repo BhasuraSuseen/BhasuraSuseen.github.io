@@ -11,7 +11,7 @@ category: 3D
 <b>Client -</b> True Story <br>
 <br>
 <div class="row">
-        I utilized Unreal Paragon assets and free marketplace assets, along with additional free 3D assets from online marketplaces. These were modified using Blender to create an environment with consistent lighting. I employed free character animations, which I retargeted, modified, blended, and arranged into a montage. Additionally, I created animations for a phone and a loot box, as well as particle effects. Finally, I completed the camera work, rendering, and post-processing in Adobe After Effects.
+        I utilized Unreal Paragon assets and free marketplace assets, along with additional free 3D assets from online marketplaces. These were modified using Blender to create an environment with consistent lighting inside Unreal. I employed free character animations, which I retargeted, modified, blended, and arranged into a montage. Additionally, I created animations for a phone and a loot box, as well as particle effects. Finally, I completed the camera work, rendering in Unreal, and post-processing in Adobe After Effects.
         <br><br>
         <iframe width="1200" height="600" src="https://www.youtube.com/embed/a2B09rQxUgw" frameborder="0"> </iframe>
         <br>
