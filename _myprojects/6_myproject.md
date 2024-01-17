@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Face Anatomy Study, 2020
-description: Meadium - Graphite Pencil, Page size - 5.83 x 8.27 inches 
+description: Medium - Graphite Pencil, Page size - 5.83 x 8.27 inches 
 img: assets/img/sketch_1.jpg
 importance: 6
 category: Traditional

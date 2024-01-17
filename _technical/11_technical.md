@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Under The Ice, <br> Unreal Spring Jam 2020
-description: A multiplayer game where players must cooperate to escape a ice cave, with the twist that one of them is secretly an enemy.
+description: A multiplayer game where players must cooperate to escape a trapped ice cave, with the twist that one of them is secretly an enemy.
 img: assets/img/UnderTheIce.png
 importance: 2
 category: Games
@@ -26,7 +26,7 @@ giscus_comments: false
     <div class="col-sm mt-3 mt-md-0">
          <iframe width="568" height="300" src="https://www.youtube.com/embed/azM346WMI-c" frameborder="0"> </iframe>
    
-        <p>A group of you end up trapped in an ice cave while on a trek. You must use resources in the cave to craft parts of a tower to leave the cave by using creators in the cave. But unbeknownst to the rest of you one of the members of your group has been replaced by ‘The Frozen’, an ancient being that resides in the cave. You may not be able to trust each other but must work together in order to complete the tower and leave before ‘The Frozen’ claims you. The closer you get to completing the tower the more desperate ‘The Frozen’ will become and reveal its true nature, and its desire to have you all you remain forever Under the Ice. </p>
+        <p>A group of you end up trapped in an ice cave while on a trek. You must use resources in the cave to craft parts of a tower to leave the cave by using creators in the cave. But unbeknownst to the rest of you one of the members of your group has been replaced by ‘The Frozen’, an ancient being that resides in the cave. You may not be able to trust each other but must work together in order to complete the tower and leave before ‘The Frozen’ claims you. The closer you get to completing the tower the more desperate ‘The Frozen’ will become and reveal its true nature, and its desire to have you all you remain here forever Under the Ice. </p>
         <br>
         Gameplay 
         <br>

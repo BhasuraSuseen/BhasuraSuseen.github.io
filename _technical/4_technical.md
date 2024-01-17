@@ -10,7 +10,7 @@ category: Visual Computing
 <b>Technologies -</b> Python / PyTorch / Retina Face  <br>
 <b>Role - </b>  I studied YOLO and Retina Net for object and face detection, analyzed the WiderFace Dataset for long-distance detection, implemented an IOU-aware head, and trained the model to significantly improve upon baseline results.<br>
 <b>Contributors - </b> BISWAS DIPAYON <br>
-Developed this project for Computer Vsion graduate course module.<br>
+Developed this project for Computer Vision graduate course module.<br>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/facedetection.png" title="example image" class="img-fluid rounded z-depth-1" %}

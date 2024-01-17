@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Undergraduate Reserch - Simulation of Climbing Plants with Twining Behaviour, 2018-2019.
+title: Undergraduate Research - Simulation of Climbing Plants with Twining Behaviour, 2018-2019.
 description: Computer graphics simulation of biomechanical behaviors, including twining and support-finding in climbing plants.
 img: assets/img/twining_1.png
 importance: 2

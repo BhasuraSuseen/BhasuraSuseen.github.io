@@ -7,7 +7,7 @@ importance: 10
 category: Theater & Stagecraft
 ---
 <b>My Role - </b> Acting and Set Designing <br>
-<b>Actors - </b> Me, Kumoditha Gunawardhana, Ranuka Kariyawasam<br>
+<b>Actors - </b> Bhasura Gunawardhana, Kumuditha Gunawardhana, Ranuka Kariyawasam<br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

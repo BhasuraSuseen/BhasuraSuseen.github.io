@@ -6,7 +6,7 @@ img: assets/img/3Dsculpt.png
 importance: 3
 category: 3D
 ---
-
+<b>Technologies -</b> Zbrush / Maya / Unreal Engine <br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

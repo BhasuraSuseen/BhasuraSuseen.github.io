@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Interactive VR Volume Rendering to explore medical data, Fall 2022.
+title: Interactive VR volume rendering to explore medical data, Fall 2022.
 description: Implementation of the Reymarch algorithm to support volume rendering in VR view and interactions.
 img: assets/img/volume_1.png
 importance: 3
@@ -10,7 +10,7 @@ category: Visual Computing
 <b>Technologies -</b> Unreal Engnine/ UMG widgets / C++/ HLSL / Oculus Quest with link. <br>
 <b>Role - </b> Improved ray-marching shader implementation to support different color transfer functions. Implemented VR interactions with the volume rendering.<br>
 <b>Contributors - </b> BISWAS DIPAYON, SANJITH BALACHANDRAN<br>
-
+Developed this project for Visualization graduate course module.<br>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <iframe width="568" height="300" src="https://www.youtube.com/embed/KWa7edHiTC0" frameborder="0"> </iframe>

@@ -9,7 +9,7 @@ giscus_comments: false
 ---
 <br>
 <b>Technologies -</b> Unreal Engnine/ UMG widgets / C++/ Oculus Quest with link. <br>
-<b>Role - </b> Implemented combo power-ups, created materials, and optimized Megascan assets for VR compatibility. Designed levels and lighting, developed a leaderboard with UMG UI and 3D widgets, and established 3D widget interactions.<br>
+<b>Role - </b> Implemented combo power-ups, created materials, and optimized Megascan assets for VR compatibility. Designed level and lighting, developed a leaderboard with UMG UI and 3D widgets, and established 3D widget interactions.<br>
 <b>Contributors - </b> Janith Samarathunga, Kavindu Heshan, Lahiru WIijesundara, Oshan Wickramarathne<br>
 
 <a href="https://ncalibrated.itch.io/allelephantsgotoheaven" > Download the  <b>VR Game from this link</b>.</a><br>

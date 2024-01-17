@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Human Figure Anatomy Study, 2023
-description: Meadium - Ipad
+description: Medium - Ipad, Procreate
 img: assets/img/human_f.png
 importance: 6
 category: Traditional
