@@ -60,3 +60,4 @@ toc:
   {%- endif -%}
 {%- endif -%}
 </div>
+<a href="https://clustrmaps.com/site/1by6v" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=-0vweRXgj9N0Vq4XdLTqKePi7EH085yfqUofSSgxBpE&cl=ffffff" width="10" height="10"></a>
