@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Minimal Movie Poster Designs, 2014
-description: Fun project to come up with minimal movie posters. Design using Adobe Photoshop. 
+description: Fun project to come up with minimal movie posters. Designed using Adobe Photoshop. 
 img: assets/img/kapai.png
 redirect: https://www.behance.net/gallery/53134259/Kapai-Creators-Minimalist-film-posters
 importance: 8
