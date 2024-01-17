@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Interactive VR volume rendering to explore medical data, Fall 2022.
+title: Interactive VR volume rendering to explore medical data, Fall 2023.
 description: Implementation of the Reymarch algorithm to support volume rendering in VR view and interactions.
 img: assets/img/volume_1.png
 importance: 3

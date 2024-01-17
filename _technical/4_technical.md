@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Face Detection in Large Distances (FaDiLD), Spring 2022.
+title: Face Detection in Large Distances (FaDiLD), Spring 2023.
 description: Improving redina face for large distance face detection using IOU aware loss function. 
 img: assets/img/facedetection.png
 importance: 4
