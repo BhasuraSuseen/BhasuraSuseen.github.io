@@ -29,3 +29,5 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 Hello, I'm a researcher with a keen interest in the creative and technical realms, especially where they intersect in interactive computer graphics and extended reality. My goal is to explore and expand human experiences through these innovative mediums. My passion for immersive technology drives me to discover new ways to connect and engage with the world, blurring the lines between the virtual and the real.
 
 Currently, I am a second year Computer Science Ph.D. student at University of Houston, TX, USA. I got my Bachelor's degree in Computer Science from the University of Colombo. My journey has also led me through over 3 years of professional experience in training and simulation industry as an Engineer.
+
+<a href="http://www.clustrmaps.com/map/Bhasurasuseen.github.io" title="Visit tracker for Bhasurasuseen.github.io"></a>
