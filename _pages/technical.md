@@ -5,7 +5,7 @@ permalink: /technical/
 description: Here is my technical portfolio sectioned in to different aspects along with some description.
 nav: true
 nav_order: 3
-display_categories: [ Visual Computing ,Web, Games]
+display_categories: [ Visual Computing ,Web, IOT, Games]
 horizontal: false
 toc:
   sidebar: left
