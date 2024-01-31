@@ -28,7 +28,7 @@ category: IOT
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/ic_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <b>1nd Runner-up — Microsoft Imagine Cup Sri Lanka 2016, Innovation Category</b><br>
+        <b>1st Runner-up — Microsoft Imagine Cup Sri Lanka 2016, Innovation Category</b><br>
     </div>
 </div>
 
