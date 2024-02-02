@@ -9,7 +9,7 @@ category: Video
 <br>
 <b>Technologies - </b> Edited using Adobe Premire Pro<br>
 <b>My Role - </b> Directing and Editing<br>
-<b>Actor - Kavishka Cooray</b> 
+<b>Actor - </b> Kavishka Cooray</br> 
 <b>Contributors - </b> Thushara Gunawrdhana(Cinematography), Dinindu Edirisinghe(lighting)<br>
 <div class="row">
     <iframe width="1200" height="600" src="https://www.youtube.com/embed/96Zxd7MQwx0" frameborder="0"> </iframe>
