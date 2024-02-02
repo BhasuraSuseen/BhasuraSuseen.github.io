@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Theater play "The Statue Thieves", 2009 
-description: Acting and Set Designing 
+description: Acting and set designing 
 img: assets/img/StatueThieves_1.jpg
 importance: 10
 category: Theater & Stagecraft

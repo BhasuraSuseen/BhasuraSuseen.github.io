@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Theater play "Right is Wrong", 2011
-description: Script Writing and Directing
+description: Script writing and directing
 img: assets/img/risw.jpg
 importance: 5
 category: Theater & Stagecraft
