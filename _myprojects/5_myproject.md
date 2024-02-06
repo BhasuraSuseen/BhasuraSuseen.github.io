@@ -13,6 +13,9 @@ category: Theater & Stagecraft
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/risw.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
         {% include figure.html path="assets/img/WisW.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Image courtesy of Pasan Ranaweera
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     

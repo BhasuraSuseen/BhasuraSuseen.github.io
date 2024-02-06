@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Human Figure Anatomy Study, 2023
-description: Medium - Ipad, Procreate
+description: Medium - Ipad, Procreate, Size - 1640 x 2360 pixels
 img: assets/img/human_f.png
 importance: 6
 category: Traditional

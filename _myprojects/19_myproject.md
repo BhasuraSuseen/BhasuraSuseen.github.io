@@ -7,7 +7,7 @@ importance: 12
 category: Theater & Stagecraft
 ---
 <br>
-<b>My Role - </b> Dynamic set design with mime choreography<br>
+<b>My Role - </b> Set design with mime choreography<br>
 <b>Contribution - </b>Royal college drama Society(mime actors)<br>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
