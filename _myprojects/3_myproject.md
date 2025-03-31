@@ -3,7 +3,7 @@ layout: page
 title: 3D Creature, 2017
 description: 3D sculpting, retopology, texturing, riging.
 img: assets/img/3Dsculpt.png
-importance: 3
+importance: 5
 category: 3D
 ---
 <b>Technologies -</b> Zbrush / Maya / Unreal Engine <br>

@@ -10,8 +10,9 @@ category: 3D
 <b>Technologies -</b> Unreal Engine / Maya / Houdini / DaVinci Resolve<br>
 <br>
 <div class="row">
-        <br><br>
+        <br>
         <iframe width="1200" height="600" src="https://www.youtube.com/embed/aNEded3xi44" frameborder="0"> </iframe>
+        <br><br>
 </div>
 <div class="row">
     <br>
