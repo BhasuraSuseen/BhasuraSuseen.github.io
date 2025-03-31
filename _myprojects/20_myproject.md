@@ -11,9 +11,10 @@ category: 3D
 <br>
 <div class="row">
         <br>
-        <iframe width="1200" height="600" src="https://www.youtube.com/embed/aNEded3xi44" frameborder="0"> </iframe>
+        <iframe width="1200" height="675" src="https://www.youtube.com/embed/aNEded3xi44" frameborder="0"> </iframe>
         <br><br>
 </div>
+<br>
 <div class="row">
     <br>
     <div class="col-sm mt-3 mt-md-0">
