@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Frogzised, 2024
+title: FrogSized, 2024
 description: 3D modeling and animation.
 img: assets/img/FrogSized.png
 importance: 4
