@@ -11,15 +11,26 @@ category: 3D
 <br>
 <div class="row">
         <br><br>
-        <iframe width="1200" height="600" src="https://youtu.be/aNEded3xi44" frameborder="0"> </iframe>
+        <iframe width="1200" height="600" src="https://www.youtube.com/embed/aNEded3xi44" frameborder="0"> </iframe>
 </div>
 <div class="row">
     <br>
     <div class="col-sm mt-3 mt-md-0">
-        <iframe width="568" height="300" src="https://youtu.be/Be8xiOVmflE" frameborder="0"> </iframe>
-        <iframe width="568" height="300" src="https://youtu.be/o3IFheChWcQ" frameborder="0"> </iframe>
+        <iframe width="568" height="300" src="https://www.youtube.com/embed/Be8xiOVmflE" frameborder="0"> </iframe>
+        <iframe width="568" height="300" src="https://www.youtube.com/embed/o3IFheChWcQ" frameborder="0"> </iframe>
     </div>
-<div class="row">
-        {% include figure.html path="assets/img/3DAdvert.png" title="example image" class="img-fluid rounded z-depth-1" %}
 </div>
-
+<div class="row">
+    <br>
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe width="568" height="300" src="https://www.youtube.com/embed/6monLfIML5s" frameborder="0"> </iframe>
+        <iframe width="568" height="300" src="https://www.youtube.com/embed/Fkzc5yjH5K4" frameborder="0"> </iframe>
+    </div>
+</div>
+<div class="row">
+    <br>
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe width="568" height="300" src="https://www.youtube.com/embed/zwlLOzsAi_0" frameborder="0"> </iframe>
+        <iframe width="568" height="300" src="https://www.youtube.com/embed/i_riV60ZrtM" frameborder="0"> </iframe>
+    </div>
+</div>
