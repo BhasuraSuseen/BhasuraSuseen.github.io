@@ -5,7 +5,7 @@ permalink: /portfolio/
 description: Here is my portfolio sectioned in to different aspects along with descriptions. Click on images for more details.
 nav: true
 nav_order: 2
-display_categories: [Games, 3D, Theater & Stagecraft, Traditional, Graphic Designing, UI/UX Designing, Video]
+display_categories: [Virtual Producion, Games, 3D, Theater & Stagecraft, Traditional, Graphic Designing, UI/UX Designing, Video]
 horizontal: false
 toc:
   sidebar: left
