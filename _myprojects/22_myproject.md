@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sixth Side ICVFX Short film teaser, 2025
-description: Test Virtual Production Shooting for "Sixth Side" Short Film. Synopsis:A peculiar dice, seemingly ordinary, appears across six different worlds, bringing with it chaos and transformation. In each world, its roll triggers events that defy logic and natural laws. From explosions to miraculous survival tools, the diceleaves a trail of mystery and devastation, connecting these worlds through fate and chance. Each story unravels how the dice alters lives, for better or worse, before disappearing into the unknown.
+description: Test Virtual Production Shooting for "Sixth Side" Short Film. Synopsis:A mysterious dice appears across six worlds, triggering chaotic events that defy logic. With each roll, it alters lives sometimes miraculous, sometimes destructive before vanishing, linking the worlds through fate and chance.
 img: assets/img/SixthSide.png
 redirect: https://sixthside.github.io/
 importance: 1
