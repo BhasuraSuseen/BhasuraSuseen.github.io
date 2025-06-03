@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LookDev, 2025
+title: Canvas Backpack LookDev, 2025
 description: Asset Surfacing and Look Development.
 img: assets/img/BKPK_Rendering1.jpg
 importance: 3

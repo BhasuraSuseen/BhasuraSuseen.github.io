@@ -1,7 +1,7 @@
 ---
 layout: page
-title: LookDev, 2025
-description: Asset Surfacing and Look Development.
+title: Sixth Side ICVFX Short film teaser, 2025
+description: Test Virtual Production Shooting for "Sixth Side" Short Film. Synopsis:A peculiar dice, seemingly ordinary, appears across six different worlds, bringing with it chaos and transformation. In each world, its roll triggers events that defy logic and natural laws. From explosions to miraculous survival tools, the diceleaves a trail of mystery and devastation, connecting these worlds through fate and chance. Each story unravels how the dice alters lives, for better or worse, before disappearing into the unknown.
 img: assets/img/SixthSide.png
 redirect: https://sixthside.github.io/
 importance: 1
