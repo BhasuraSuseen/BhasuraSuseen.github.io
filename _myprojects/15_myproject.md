@@ -5,7 +5,7 @@ description: UI/UX desing for SAF-TAC traning simulaiton platform, used Adobe XD
 img: assets/img/ux_1.png
 redirect: https://www.behance.net/gallery/189211113/SIMUI-UIUX-Design
 importance: 8
-category: UI/UX Designing
+category: Web, IOT & UI/UX
 ---
 <br>
 

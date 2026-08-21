@@ -2,8 +2,9 @@
 layout: default
 ---
 
-<!-- about.html: the home page merges About, Publications, Portfolio, Technical
-     Projects, and CV into one scrollable page instead of separate tab clicks.
+<!-- about.html: the home page merges About, Publications, Portfolio (which
+     itself combines the technical and creative project collections), and CV
+     into one scrollable page instead of separate tab clicks.
      The left-hand quick-nav (toc: sidebar: left, set in _pages/about.md) is
      built by the theme's existing bootstrap-toc mechanism (see common.js)
      from the h1/h2 headings below -- the same mechanism the standalone pages
@@ -106,26 +107,13 @@ layout: default
   <div class="post">
     <header class="post-header">
       <h1 class="post-title" id="portfolio">Portfolio</h1>
-      <p class="post-description">Creative and design work — click on images for more details.</p>
+      <p class="post-description">Technical and creative work together, sectioned by category — click on images for more details.</p>
     </header>
     <article>
-      {% include sections/portfolio-grid.html %}
+      {% include sections/projects-grid.html %}
     </article>
   </div>
   <p class="onepage-more"><a href="{{ '/portfolio/' | relative_url }}">Open Portfolio on its own page&nbsp;&rarr;</a></p>
-</section>
-
-<section class="onepage-section">
-  <div class="post">
-    <header class="post-header">
-      <h1 class="post-title" id="technical">Technical Projects</h1>
-      <p class="post-description">Technical work across visual computing, web, IoT, and games.</p>
-    </header>
-    <article>
-      {% include sections/technical-grid.html %}
-    </article>
-  </div>
-  <p class="onepage-more"><a href="{{ '/technical/' | relative_url }}">Open Technical Projects on its own page&nbsp;&rarr;</a></p>
 </section>
 
 <section class="onepage-section">

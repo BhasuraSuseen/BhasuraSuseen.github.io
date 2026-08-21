@@ -5,7 +5,7 @@ description: Fun project to come up with minimal movie posters. Designed using A
 img: assets/img/kapai.png
 redirect: https://www.behance.net/gallery/53134259/Kapai-Creators-Minimalist-film-posters
 importance: 8
-category: Graphic Designing
+category: Graphic Design
 ---
 
 

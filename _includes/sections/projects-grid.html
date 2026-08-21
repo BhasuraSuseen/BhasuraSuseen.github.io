@@ -1,0 +1,29 @@
+<!-- _includes/sections/projects-grid.html
+     Shared renderer for the combined `technical` + `myprojects` collections,
+     used by both the standalone /portfolio/ page and the "Portfolio" section
+     of the one-page home. Category order lives in site.project_categories so
+     both call sites stay in sync. -->
+<div class="portfolio">
+{%- assign all_projects = site.technical | concat: site.myprojects -%}
+{%- if site.enable_project_categories and site.project_categories %}
+  <!-- Display categorized projects -->
+  {%- for category in site.project_categories %}
+  <h2 class="category">{{ category }}</h2>
+  {%- assign categorized_projects = all_projects | where: "category", category -%}
+  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
+  <div class="grid">
+    {%- for project in sorted_projects -%}
+      {% include portfolio.html %}
+    {%- endfor %}
+  </div>
+  {% endfor %}
+{%- else -%}
+  <!-- Display projects without categories -->
+  {%- assign sorted_projects = all_projects | sort: "importance" -%}
+  <div class="grid">
+    {%- for project in sorted_projects -%}
+      {% include portfolio.html %}
+    {%- endfor %}
+  </div>
+{%- endif -%}
+</div>

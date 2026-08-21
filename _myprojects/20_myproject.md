@@ -4,7 +4,7 @@ title: FrogSized, 2024
 description: 3D modeling and animation.
 img: assets/img/FrogSized.png
 importance: 4
-category: 3D
+category: 3D modeling & Animation
 ---
 <br>
 <b>Technologies -</b> Unreal Engine / Maya / Houdini / DaVinci Resolve<br>

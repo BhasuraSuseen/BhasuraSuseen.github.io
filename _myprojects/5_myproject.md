@@ -4,7 +4,7 @@ title: Theater play "Right is Wrong", 2011
 description: Script writing and directing
 img: assets/img/risw.jpg
 importance: 5
-category: Theater & Stagecraft
+category: Theatre and Video
 ---
 <b>My Role - </b> Script Writing, Directing<br>
 <b>Actors - </b> Nuwan Malindu, Chiranthana Costa<br>

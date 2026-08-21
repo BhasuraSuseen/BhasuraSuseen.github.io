@@ -5,7 +5,7 @@ description: Test virtual production shoot for "Sixth Side" a mysterious dice di
 img: assets/img/SixthSide.png
 redirect: https://sixthside.github.io/
 importance: 1
-category: Virtual Producion
+category: Virtual Production
 ---
 <br>
 

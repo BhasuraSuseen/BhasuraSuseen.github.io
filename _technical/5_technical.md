@@ -4,7 +4,7 @@ title: Smart Institute Management Solution (SIMS), 2018.
 description: A web based sytem to efficiently handle academic and administrative tasks of a medium scale institute.
 img: assets/img/sims_1.png
 importance: 5
-category: Web
+category: Web, IOT & UI/UX
 ---
 <br>
 <b>Technologies -</b> Node.js / Feathers / MongoDB / Angular 5 / Angular Material / Ngx Charts / AWS <br>

@@ -4,7 +4,7 @@ title: Dynamic set design with live mime actors for Clubs & Societies Felicitati
 description: Set design and mime choreography  
 img: assets/img/cln_2.jpg
 importance: 12
-category: Theater & Stagecraft
+category: Theatre and Video
 ---
 <br>
 <b>My Role - </b> Set design with mime choreography<br>

@@ -4,7 +4,7 @@ title: Theater play "A Journy of a Lifetime" for 'Romenthe' Event, 2016
 description: Script writing and directing of series of interconnected short stories, woven together to guide an event.
 img: assets/img/rm_4.jpg
 importance: 8
-category: Theater & Stagecraft
+category: Theatre and Video
 ---
 <br>
 <b>My Role - </b> Script Writing, Directing<br>

@@ -4,7 +4,7 @@ title: Crystal Dreams, 2023
 description: Medium - Watercolor, Page size - 11 x 14 inches 
 img: assets/img/cd_6.jpg
 importance: 16
-category: Traditional
+category: Drawing
 ---
 
 

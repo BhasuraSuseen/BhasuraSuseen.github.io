@@ -4,7 +4,7 @@ title: Speech Olympiad opening short movie, 2022
 description: Event opening short movie for Speech Olympiad finals hosted by the Gavel Club at the University of Moratuwa, Sri Lanka.
 img: assets/img/vid_1.png
 importance: 10
-category: Video
+category: Theatre and Video
 ---
 <br>
 <b>Technologies - </b> Edited using Adobe Premire Pro<br>

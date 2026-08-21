@@ -2,16 +2,12 @@
 layout: page
 title: Technical Projects
 permalink: /technical/
-description: Here is my technical portfolio sectioned in to different aspects along with some description.
-nav: true
-nav_order: 3
-section_anchor: technical
-toc:
-  sidebar: left
-
-
+description: Technical Projects has moved into the combined Portfolio page.
+nav: false
 ---
 
-<!-- pages/technical.md -->
-{% include sections/technical-grid.html %}
-<a href="https://clustrmaps.com/site/1by6v" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=-0vweRXgj9N0Vq4XdLTqKePi7EH085yfqUofSSgxBpE&cl=ffffff" width="10" height="10"></a>
+<!-- pages/technical.md: Technical Projects and Portfolio were merged into
+     one page (see _pages/portfolio.md). This stub keeps the old /technical/
+     URL working by sending visitors there instead of a dead link. -->
+<script>window.location.replace("{{ '/portfolio/' | relative_url }}");</script>
+<p>Technical Projects is now part of the <a href="{{ '/portfolio/' | relative_url }}">Portfolio</a> page. Redirecting you there now&hellip;</p>

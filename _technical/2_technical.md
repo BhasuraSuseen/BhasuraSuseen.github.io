@@ -4,7 +4,7 @@ title: Undergraduate Research - Simulation of Climbing Plants with Twining Behav
 description: Computer graphics simulation of biomechanical behaviors, including twining and support-finding in climbing plants.
 img: assets/img/twining_1.png
 importance: 2
-category: Visual Computing
+category: Computer Graphics & Computer Vision
 giscus_comments: false
 ---
 <br>

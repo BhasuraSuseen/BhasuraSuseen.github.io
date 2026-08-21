@@ -4,7 +4,7 @@ title: SAF-TAC by SimCentric Technologies, 2019 - 2022.
 description: VR/Desktop multiplayer platform for simulation and training. 
 img: assets/img/workProject.jpg
 importance: 1
-category: Visual Computing
+category: Training and Simulation
 giscus_comments: false
 ---
 <br>

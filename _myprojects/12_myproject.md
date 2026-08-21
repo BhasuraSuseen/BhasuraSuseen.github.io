@@ -5,7 +5,7 @@ description: Designed Flyers, Posters, Tickets, and Banners using Adobe Photosho
 img: assets/img/Ninnada.jpg
 redirect: https://www.behance.net/gallery/53135689/Ninnada-2017
 importance: 6
-category: Graphic Designing
+category: Graphic Design
 ---
 
 

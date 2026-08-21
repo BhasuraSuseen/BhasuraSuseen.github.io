@@ -4,7 +4,7 @@ title: Canvas Backpack LookDev, 2025
 description: Asset Surfacing and Look Development.
 img: assets/img/BKPK_Rendering1.jpg
 importance: 3
-category: 3D
+category: 3D modeling & Animation
 ---
 <br>
 <b>Technologies -</b> Substance Painter / Maya / Renderman / Unreal Engine / Houdini <br>

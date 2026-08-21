@@ -5,7 +5,7 @@ description: Designed Flyers and Stickers using Adobe Photoshop.
 img: assets/img/ieee.png
 redirect: https://www.behance.net/gallery/53135387/IEEE
 importance: 7
-category: Graphic Designing
+category: Graphic Design
 ---
 
 

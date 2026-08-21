@@ -4,7 +4,7 @@ title: Hospital Office Management System, 2016.
 description: Web based Hospital office management system designed to streamline and organize various administrative tasks within a healthcare facility.  
 img: assets/img/oms.jpg
 importance: 6
-category: Web
+category: Web, IOT & UI/UX
 ---
 <br>
 <b>Technologies -</b> HTML / CSS / JavaScript / D3.js / PHP / MySQL / Azure. <br>

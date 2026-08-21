@@ -184,11 +184,20 @@ collections:
     output: true
     permalink: /technical/:path/
 
-# Category groupings shared between the standalone collection pages
-# (_pages/technical.md, _pages/portfolio.md) and their one-page home sections
-# (_includes/sections/*-grid.html), so both render from a single source.
-technical_categories: [Visual Computing, Web, IOT, Games]
-portfolio_categories: [Virtual Producion, Games, 3D, Theater & Stagecraft, Traditional, Graphic Designing, UI/UX Designing, Video]
+# Category order for the unified Portfolio page (_pages/portfolio.md), which
+# renders both the `technical` and `myprojects` collections together
+# (_includes/sections/projects-grid.html) so there's one project section
+# instead of a separate Portfolio and Technical Projects tab.
+project_categories:
+  - Training and Simulation
+  - Computer Graphics & Computer Vision
+  - Games
+  - 3D modeling & Animation
+  - Virtual Production
+  - Web, IOT & UI/UX
+  - Graphic Design
+  - Drawing
+  - Theatre and Video
 
 announcements:
   enabled: true

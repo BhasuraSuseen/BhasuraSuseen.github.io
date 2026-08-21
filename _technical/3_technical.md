@@ -4,7 +4,7 @@ title: Interactive VR volume rendering to explore medical data, Fall 2023.
 description: Implementation of the Reymarch algorithm to support volume rendering in VR view and interactions.
 img: assets/img/volume_1.png
 importance: 3
-category: Visual Computing
+category: Training and Simulation
 ---
 <br>
 <b>Technologies -</b> Unreal Engnine/ UMG widgets / C++/ HLSL / Oculus Quest with link. <br>

@@ -4,7 +4,7 @@ title:  Theater play "The Statue Thieves", 2009
 description: Acting and set designing 
 img: assets/img/StatueThieves_1.jpg
 importance: 10
-category: Theater & Stagecraft
+category: Theatre and Video
 ---
 <b>My Role - </b> Acting and Set Designing <br>
 <b>Actors - </b> Bhasura Gunawardhana, Kumuditha Gunawardhana, Ranuka Kariyawasam<br>

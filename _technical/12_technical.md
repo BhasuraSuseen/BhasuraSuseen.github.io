@@ -4,7 +4,7 @@ title: IOT solution “Measure Wire”, 1st Runner-up -  Innovation Category - M
 description: IOT solution “Measure Wire” mobile app and a device where we can take our everyday measurements
 img: assets/img/mww.jpg
 importance: 7
-category: IOT
+category: Web, IOT & UI/UX
 ---
 <br>
 <b>Technologies -</b> C / Arduino / Android / Java <br>
