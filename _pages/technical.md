@@ -4,8 +4,7 @@ title: Technical Projects
 permalink: /technical/
 description: Here is my technical portfolio sectioned in to different aspects along with some description.
 nav: true
-nav_order: 1
-section_anchor: technical
+nav_order: 3
 toc:
   sidebar: left
 
