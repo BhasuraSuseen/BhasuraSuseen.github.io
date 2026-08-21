@@ -1,6 +1,14 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
 let toggleTheme = (theme) => {
+  // Only animate the color swap on an explicit user toggle -- not here, an
+  // initial page load has nothing rendered yet to transition from, so
+  // forcing `transition: all 750ms !important` on every element (see
+  // transTheme()) during that window just makes every style that's still
+  // settling in (fonts, images finishing layout, etc.) visibly fade in
+  // instead of appearing immediately, which reads as "not loaded right"
+  // rather than a real problem.
+  transTheme();
   if (theme == "dark") {
     setTheme("light");
   } else {
@@ -9,7 +17,6 @@ let toggleTheme = (theme) => {
 };
 
 let setTheme = (theme) => {
-  transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
 
