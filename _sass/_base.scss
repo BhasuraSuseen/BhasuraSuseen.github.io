@@ -606,6 +606,15 @@ footer.sticky-bottom {
     }
   }
 
+  // Fallback layout for before Masonry.js (loaded from a CDN) initializes --
+  // without it, .grid-item elements briefly stack in a single narrow column.
+  // Masonry takes over with absolute positioning once it runs, so this is
+  // purely the pre-JS state.
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .grid-sizer,
   .grid-item {
     width: 290px;
@@ -649,6 +658,11 @@ footer.sticky-bottom {
       display: flex;
       align-items: center;
     }
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .grid-sizer,
@@ -695,6 +709,11 @@ footer.sticky-bottom {
       display: flex;
       align-items: center;
     }
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .grid-sizer,

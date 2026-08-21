@@ -27,6 +27,23 @@ html {
   }
 }
 
+// The toc-sidebar layout (_layouts/default.html, used whenever
+// `toc: sidebar: left/right` is set) defaults its two columns to col-sm-12
+// each (full width, so they stack on narrow screens); above the sm
+// breakpoint, size the sidebar to ~15% and give the content the rest,
+// instead of Bootstrap's fixed 1/12 column increments.
+@media (min-width: 576px) {
+  .toc-sidebar-col {
+    flex: 0 0 15%;
+    max-width: 15%;
+  }
+
+  .toc-content-col {
+    flex: 0 0 85%;
+    max-width: 85%;
+  }
+}
+
 // bootstrap-toc.min.css collapses a heading's nested sub-list (categories
 // under a section title) until that heading is the scroll-active one --
 // meant for a single accordion-style doc page. On the merged home, that
