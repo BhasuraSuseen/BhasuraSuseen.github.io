@@ -1,0 +1,44 @@
+---
+permalink: /llms.txt
+---
+# {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+
+> {{ site.description | strip_newlines | strip }}
+
+This file follows the [llms.txt](https://llmstxt.org/) convention: a concise,
+machine-readable summary of this site for AI assistants, search agents, and
+other LLM-based tools. The canonical, human-facing version of this content
+lives at {{ site.url }}{{ site.baseurl }}/.
+
+## About
+
+{%- assign about_page = site.pages | where: "permalink", "/" | first %}
+{{ about_page.content | strip_html | strip_newlines | truncatewords: 120 }}
+
+## Pages
+
+- [Home / About]({{ site.url }}{{ site.baseurl }}/): Bio and a one-page scrollable overview of everything below.
+- [Technical Projects]({{ site.url }}{{ site.baseurl }}/technical/): Engineering and technical work across visual computing, web, IoT, and games.
+- [Portfolio]({{ site.url }}{{ site.baseurl }}/portfolio/): Creative and design work.
+- [Publications]({{ site.url }}{{ site.baseurl }}/publications/): Academic and research publications.
+- [CV]({{ site.url }}{{ site.baseurl }}/cv/): Education, experience, and skills.
+- [Contact]({{ site.url }}{{ site.baseurl }}/contact/): Email, LinkedIn, GitHub, and other ways to get in touch.
+
+## Elsewhere
+
+{%- if site.linkedin_username %}
+- LinkedIn: https://www.linkedin.com/in/{{ site.linkedin_username }}
+{%- endif %}
+{%- if site.github_username %}
+- GitHub: https://github.com/{{ site.github_username }}
+{%- endif %}
+{%- if site.gitlab_username %}
+- GitLab: https://gitlab.com/{{ site.gitlab_username }}
+{%- endif %}
+{%- if site.scholar_userid %}
+- Google Scholar: https://scholar.google.com/citations?user={{ site.scholar_userid }}
+{%- endif %}
+{%- if site.youtube_id %}
+- YouTube: https://youtube.com/@{{ site.youtube_id }}
+{%- endif %}
+- Behance: https://www.behance.net/bhasurasd682

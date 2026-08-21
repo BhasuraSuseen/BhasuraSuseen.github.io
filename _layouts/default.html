@@ -10,7 +10,10 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <!-- data-spy/data-target enable Bootstrap's scrollspy: on the one-page home
+       (_layouts/about.html) it auto-highlights the matching navbar tab as you
+       scroll past each #section; it's a no-op on pages without those ids. -->
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}" data-spy="scroll" data-target="#navbar" data-offset="80">
 
     <!-- Header -->
     {%- include header.html %}

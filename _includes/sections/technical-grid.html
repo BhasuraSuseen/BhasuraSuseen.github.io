@@ -1,0 +1,28 @@
+<!-- _includes/sections/technical-grid.html
+     Shared renderer for the `technical` collection, used by both the
+     standalone /technical/ page and the "Technical Projects" section of the
+     one-page home. Category list lives in site.technical_categories so both
+     call sites stay in sync. -->
+<div class="technical">
+{%- if site.enable_project_categories and site.technical_categories %}
+  <!-- Display categorized projects -->
+  {%- for category in site.technical_categories %}
+  <h2 class="category">{{ category }}</h2>
+  {%- assign categorized_projects = site.technical | where: "category", category -%}
+  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
+  <div class="grid">
+    {%- for project in sorted_projects -%}
+      {% include portfolio.html %}
+    {%- endfor %}
+  </div>
+  {% endfor %}
+{%- else -%}
+  <!-- Display projects without categories -->
+  {%- assign sorted_projects = site.technical | sort: "importance" -%}
+  <div class="grid">
+    {%- for project in sorted_projects -%}
+      {% include portfolio.html %}
+    {%- endfor %}
+  </div>
+{%- endif -%}
+</div>

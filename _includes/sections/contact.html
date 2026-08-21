@@ -1,0 +1,14 @@
+<!-- _includes/sections/contact.html
+     Shared renderer for contact info, used by both the standalone /contact/
+     page and the "Contact" section of the one-page home. -->
+<div class="social">
+  <p>The fastest way to reach me is by email or LinkedIn — I'm happy to share more about my work or talk about opportunities.</p>
+  <div class="contact-icons">
+    {% include social.html %}
+  </div>
+  {% if site.contact_note %}<p class="contact-note">{{ site.contact_note }}</p>{% endif %}
+  <p>
+    <a class="btn btn-outline-dark" href="{{ '/cv/' | relative_url }}" role="button">View full CV</a>
+    <a class="btn btn-outline-dark" href="{{ 'example_pdf.pdf' | prepend: 'assets/pdf/' | relative_url }}" target="_blank" rel="noopener noreferrer" role="button">Download résumé (PDF)</a>
+  </p>
+</div>

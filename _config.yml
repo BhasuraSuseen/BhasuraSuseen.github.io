@@ -8,7 +8,9 @@ middle_name: Suseen
 last_name: Gunawardhana
 email: bhasuras@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Bhasura Suseen Gunawardhana — portfolio of a computer graphics & extended reality (XR) engineer.
+  MS in Computer Science (University of Houston), 3+ years in training & simulation engineering.
+  Explore technical projects, portfolio, publications, and CV.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -17,7 +19,7 @@ footer_text: >
   <a href="https://github.com/BhasuraSuseen" title="GitHub"><i class="fa-brands fa-github"></i></a>
   <a href="https://www.behance.net/bhasurasd682" title="behance"><i class="fa-brands fa-behance"></i></a>
   <a href="https://www.youtube.com/@azimotion2708" title="YouTube"><i class="fa-brands fa-youtube"></i></a> <br>
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: Bhasura Gunawardhana, computer graphics engineer, extended reality, XR, VR, AR, interactive graphics, Unity, Unreal Engine, training and simulation, portfolio, resume, CV, software engineer  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -63,21 +65,21 @@ max_width: 1200px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://bhasurasuseen.github.io/assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-gitlab_username: # your GitLab user name
+github_username: BhasuraSuseen # your GitHub user name
+gitlab_username: BhasuraSuseen # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: bhasura-gunawardhana # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: 5FgRyXcAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
@@ -102,13 +104,13 @@ pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: azimotion2708 # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Email and LinkedIn are the quickest ways to reach me.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -181,6 +183,12 @@ collections:
   technical:
     output: true
     permalink: /technical/:path/
+
+# Category groupings shared between the standalone collection pages
+# (_pages/technical.md, _pages/portfolio.md) and their one-page home sections
+# (_includes/sections/*-grid.html), so both render from a single source.
+technical_categories: [Visual Computing, Web, IOT, Games]
+portfolio_categories: [Virtual Producion, Games, 3D, Theater & Stagecraft, Traditional, Graphic Designing, UI/UX Designing, Video]
 
 announcements:
   enabled: true
