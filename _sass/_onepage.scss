@@ -27,6 +27,19 @@ html {
   }
 }
 
+// bootstrap-toc.min.css collapses a heading's nested sub-list (categories
+// under a section title) until that heading is the scroll-active one --
+// meant for a single accordion-style doc page. On the merged home, that
+// nesting shows up for the first time (About/Publications/Portfolio/
+// Technical/CV as parents, with categories as children), so on first load
+// every category is hidden until you scroll to its section, which reads as
+// broken/incomplete. Force the full tree open instead, matching how the
+// standalone pages' (flat, unnested) sidebars always looked.
+nav[data-toggle="toc"] .nav-link + ul {
+  display: block !important;
+  padding-bottom: 10px;
+}
+
 .onepage-more {
   margin-top: -0.5rem;
   margin-bottom: 2.5rem;
