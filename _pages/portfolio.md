@@ -5,6 +5,7 @@ permalink: /portfolio/
 description: Here is my portfolio sectioned in to different aspects along with descriptions. Click on images for more details.
 nav: true
 nav_order: 2
+section_anchor: portfolio
 toc:
   sidebar: left
 

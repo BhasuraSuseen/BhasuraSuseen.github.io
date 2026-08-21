@@ -49,9 +49,12 @@
                 {% endif %}
               {% endfor %}
 
-              <!-- About -->
-              <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
+              <!-- About: on the home page this is just the #about section, so
+                   leave its active state to assets/js/onepage-nav.js rather
+                   than marking it active for the whole time you're on `/`
+                   regardless of scroll position. -->
+              <li class="nav-item">
+                <a class="nav-link" href="{{ '/' | relative_url }}#about">{{ about_title }}
                   {%- if page.permalink == '/' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
@@ -91,7 +94,7 @@
               </li>
               {%- else %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
+                <a class="nav-link" href="{% if p.section_anchor %}{{ '/' | relative_url }}#{{ p.section_anchor }}{% else %}{{ p.url | relative_url }}{% endif %}">{{ p.title }}
                   {%- if page.title == p.title -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}

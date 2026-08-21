@@ -1,0 +1,57 @@
+/******************************************************************************
+ * One-page home (merged tabs)
+ *
+ * The home page (_layouts/about.html) merges About, Publications, Portfolio,
+ * Technical Projects, and CV into one scrollable page instead of separate
+ * pages to click through. The left quick-nav sidebar is the theme's existing
+ * toc-sidebar feature (see _pages/about.md's `toc: sidebar: left` and
+ * common.js); the top navbar is highlighted independently by
+ * assets/js/onepage-nav.js as you scroll past each section.
+ ******************************************************************************/
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.onepage-section {
+  padding-top: 2.5rem;
+
+  & + .onepage-section {
+    border-top: 1px solid var(--global-divider-color);
+  }
+}
+
+.onepage-more {
+  margin-top: -0.5rem;
+  margin-bottom: 2.5rem;
+  text-align: right;
+  font-size: 0.9rem;
+
+  a {
+    color: var(--global-text-color-light);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+// assets/js/onepage-nav.js toggles `.active` on the matched `.nav-link`
+// itself (not its parent `.nav-item`, unlike the server-rendered
+// "current page" state below it in the cascade), so mirror that styling.
+.navbar-nav .nav-item .nav-link.active {
+  background-color: inherit;
+  font-weight: bolder;
+  color: var(--global-theme-color);
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+}

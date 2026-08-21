@@ -10,6 +10,15 @@ $(document).ready(function() {
   });
   $('a').removeClass('waves-effect waves-light');
 
+  // Close the mobile nav menu after tapping a link. Previously this happened
+  // implicitly on full-page navigation; the merged home page now jumps to an
+  // in-page #anchor instead, which doesn't collapse the menu on its own.
+  $('#navbarNav .nav-link').on('click', function () {
+    if ($('#navbarNav').hasClass('show')) {
+      $('#navbarNav').collapse('hide');
+    }
+  });
+
   // bootstrap-toc
   if($('#toc-sidebar').length){
     var navSelector = "#toc-sidebar";

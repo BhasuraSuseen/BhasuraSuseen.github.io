@@ -5,6 +5,7 @@ permalink: /technical/
 description: Here is my technical portfolio sectioned in to different aspects along with some description.
 nav: true
 nav_order: 3
+section_anchor: technical
 toc:
   sidebar: left
 

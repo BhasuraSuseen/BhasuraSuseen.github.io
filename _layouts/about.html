@@ -2,77 +2,142 @@
 layout: default
 ---
 
-<!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
+<!-- about.html: the home page merges About, Publications, Portfolio, Technical
+     Projects, and CV into one scrollable page instead of separate tab clicks.
+     The left-hand quick-nav (toc: sidebar: left, set in _pages/about.md) is
+     built by the theme's existing bootstrap-toc mechanism (see common.js)
+     from the h1/h2 headings below -- the same mechanism the standalone pages
+     already use, so it lists each section plus its categories. The top navbar
+     (_includes/header.html) links to the #ids on those headings and is
+     auto-highlighted by assets/js/onepage-nav.js as you scroll, kept as a
+     separate observer so it doesn't fight with bootstrap-toc's own scrollspy
+     instance on <body>. Each section also links out to its standalone URL for
+     deep-linking / SEO. -->
 
-        <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+<section class="onepage-section">
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title" id="about">
+        {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+      </h1>
+      <p class="desc">{{ page.subtitle }}</p>
+    </header>
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
+    <article>
+      {% if page.profile -%}
+      <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+        {%- if page.profile.image %}
+          {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-              {% include figure.html
-              path=profile_image_path
-              class=profile_image_class
-              alt=page.profile.image
-              cache_bust=true -%}
+          {% if page.profile.image_circular %}
+            {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+          {% else %}
+            {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+          {% endif %}
 
-            {% endif -%}
-            {%- if page.profile.more_info %}
-            <div class="more-info">
-              {{ page.profile.more_info }}
-            </div>
+          {% include figure.html
+          path=profile_image_path
+          class=profile_image_class
+          alt=page.profile.image
+          cache_bust=true -%}
 
-            {%- endif %}
-          </div>
-          {%- endif %}
+        {% endif -%}
+        {%- if page.profile.more_info %}
+        <div class="more-info">
+          {{ page.profile.more_info }}
+        </div>
 
-          <div class="clearfix">
-            {{ content }}
-            <!-- Social -->
-            {%- if page.social %}
-              <a href="https://www.linkedin.com/in/bhasura-gunawardhana/" title="linkedin" style="font-size: 25px"> <i class="fa-brands fa-linkedin"></i></a>
-              <a href="https://gitlab.com/users/BhasuraSuseen/activity" title="GitLab" style="font-size: 25px"> | <i class="fa-brands fa-gitlab"></i></a>
-              <a href="https://github.com/BhasuraSuseen" title="GitHub" style="font-size: 25px"> | <i class="fa-brands fa-github"></i></a>
-              <a href="https://www.behance.net/bhasurasd682" title="behance" style="font-size: 25px"> | <i class="fa-brands fa-behance"></i></a>
-              <a href="https://www.youtube.com/@azimotion2708" title="YouTube" style="font-size: 25px"> | <i class="fa-brands fa-youtube"></i></a>
-              <a href="https://scholar.google.com/citations?user=5FgRyXcAAAAJ&hl=en" title="Google Scholar" style="font-size: 25px"> | <i class="ai ai-google-scholar"></i> | </a>
-              <i class="fa fa-envelope"></i><a> bhasuras@gmail.com </a>
+        {%- endif %}
+      </div>
+      {%- endif %}
 
-            {%- endif %}
-          </div>
+      <div class="clearfix">
+        {{ content }}
+        <!-- Social -->
+        {%- if page.social %}
+          <a href="https://www.linkedin.com/in/bhasura-gunawardhana/" title="linkedin" style="font-size: 25px"> <i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://gitlab.com/users/BhasuraSuseen/activity" title="GitLab" style="font-size: 25px"> | <i class="fa-brands fa-gitlab"></i></a>
+          <a href="https://github.com/BhasuraSuseen" title="GitHub" style="font-size: 25px"> | <i class="fa-brands fa-github"></i></a>
+          <a href="https://www.behance.net/bhasurasd682" title="behance" style="font-size: 25px"> | <i class="fa-brands fa-behance"></i></a>
+          <a href="https://www.youtube.com/@azimotion2708" title="YouTube" style="font-size: 25px"> | <i class="fa-brands fa-youtube"></i></a>
+          <a href="https://scholar.google.com/citations?user=5FgRyXcAAAAJ&hl=en" title="Google Scholar" style="font-size: 25px"> | <i class="ai ai-google-scholar"></i> | </a>
+          <i class="fa fa-envelope"></i><a> bhasuras@gmail.com </a>
 
-          <!-- News -->
-          {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
-            {%- include news.html limit=true %}
-          {%- endif %}
+        {%- endif %}
+      </div>
 
-          <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %}
+      <!-- News -->
+      {% if page.news and site.announcements.enabled -%}
+        <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+        {%- include news.html limit=true %}
+      {%- endif %}
 
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
-            {%- include selected_papers.html %}
-          {%- endif %}
+      <!-- Latest posts -->
+      {% if page.latest_posts -%}
+        <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+        {%- include latest_posts.html %}
+      {%- endif %}
 
-          <a href="https://clustrmaps.com/site/1by6v" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=-0vweRXgj9N0Vq4XdLTqKePi7EH085yfqUofSSgxBpE&cl=ffffff" width="10" height="10"></a>
-        </article>
+      <!-- Selected papers -->
+      {% if page.selected_papers -%}
+        <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+        {%- include selected_papers.html %}
+      {%- endif %}
+    </article>
+  </div>
+</section>
 
-</div>
+<section class="onepage-section">
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title" id="publications">Publications</h1>
+      <p class="post-description">Publications by category, in reverse chronological order.</p>
+    </header>
+    <article>
+      <div class="publications">
+        {% bibliography -f {{ site.scholar.bibliography }} %}
+      </div>
+    </article>
+  </div>
+  <p class="onepage-more"><a href="{{ '/publications/' | relative_url }}">Open Publications on its own page&nbsp;&rarr;</a></p>
+</section>
+
+<section class="onepage-section">
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title" id="portfolio">Portfolio</h1>
+      <p class="post-description">Creative and design work — click on images for more details.</p>
+    </header>
+    <article>
+      {% include sections/portfolio-grid.html %}
+    </article>
+  </div>
+  <p class="onepage-more"><a href="{{ '/portfolio/' | relative_url }}">Open Portfolio on its own page&nbsp;&rarr;</a></p>
+</section>
+
+<section class="onepage-section">
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title" id="technical">Technical Projects</h1>
+      <p class="post-description">Technical work across visual computing, web, IoT, and games.</p>
+    </header>
+    <article>
+      {% include sections/technical-grid.html %}
+    </article>
+  </div>
+  <p class="onepage-more"><a href="{{ '/technical/' | relative_url }}">Open Technical Projects on its own page&nbsp;&rarr;</a></p>
+</section>
+
+<section class="onepage-section">
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title" id="cv">CV</h1>
+    </header>
+    <article>
+      {% include sections/cv-body.html %}
+    </article>
+  </div>
+  <p class="onepage-more"><a href="{{ '/cv/' | relative_url }}">Open full CV on its own page&nbsp;&rarr;</a></p>
+</section>
+
+<a href="https://clustrmaps.com/site/1by6v" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=-0vweRXgj9N0Vq4XdLTqKePi7EH085yfqUofSSgxBpE&cl=ffffff" width="10" height="10"></a>

@@ -5,6 +5,7 @@ title: Publications
 description: publications by categories in reversed chronological order. 
 nav: true
 nav_order: 1
+section_anchor: publications
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
