@@ -20,14 +20,30 @@ $(document).ready(function() {
   });
 
   // bootstrap-toc
-  if($('#toc-sidebar').length){
-    var navSelector = "#toc-sidebar";
-    var $myNav = $(navSelector);
-    Toc.init($myNav);
-    $("body").scrollspy({
-      target: navSelector,
-    });
+  function buildTocSidebar() {
+    if($('#toc-sidebar').length){
+      var navSelector = "#toc-sidebar";
+      var $myNav = $(navSelector);
+      $myNav.empty(); // clear a previous build before rebuilding (safe to call again)
+      Toc.init($myNav);
+      $("body").scrollspy({
+        target: navSelector,
+      });
+    }
   }
+  buildTocSidebar();
+
+  // When a page is restored from the browser's back/forward cache (e.g. the
+  // user visits another tab, then hits Back), the browser reuses the DOM
+  // snapshot from before instead of re-running scripts -- $(document).ready
+  // does not fire again, so the sidebar never rebuilds and can be left
+  // showing whatever partial state it was in when the user navigated away.
+  // pageshow with event.persisted true is the signal for that restore.
+  window.addEventListener('pageshow', function (event) {
+    if (event.persisted) {
+      buildTocSidebar();
+    }
+  });
 
   // add css to jupyter notebooks
   const cssLink = document.createElement("link");
