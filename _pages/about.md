@@ -33,7 +33,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hello, I'm a researcher with a keen interest in the creative and technical realms, especially where they intersect in interactive computer graphics and extended reality. My goal is to explore and expand human experiences through these innovative mediums. My passion for immersive technology drives me to discover new ways to connect and engage with the world, blurring the lines between the virtual and the real.
+I am a Ph.D. student in Visual Computing & Interactive Media at Texas A&M University. My research interests lie at the intersection of computer graphics, computer vision, HCI, and XR, focusing on fundamental graphics, vision, and interaction problems that enable intuitive, immersive, and human-centered systems. As intelligent technologies advance, I believe asking the right questions is more important than ever.
 
- I am currently pursuing a Ph.D. in Visual Computing & Interactive Media at Texas A&M University, working with the Virtual Production Institute. I earned my Master's degree in Computer Science from the University of Houston, TX, USA. My journey also includes over 3 years of professional experience in the training and simulation industry as a Software Engineer, following my Bachelor’s degree in Computer Science from the University of Colombo, Sri Lanka.
+I earned my Master's degree in Computer Science from the University of Houston and my Bachelor's degree in Computer Science from the University of Colombo, Sri Lanka. I also have over three years of professional experience as a Software Engineer in the training and simulation industry.
 
