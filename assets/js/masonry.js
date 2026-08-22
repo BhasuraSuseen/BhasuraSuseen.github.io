@@ -1,1 +1,1 @@
-$(document).ready(function(){var r=$(".grid").masonry({gutter:10,horizontalOrder:!0,itemSelector:".grid-item"});r.imagesLoaded().progress(function(){r.masonry("layout")})});
+function initMasonryGrids(){var i=$(".grid").masonry({gutter:10,horizontalOrder:!0,itemSelector:".grid-item"});i.imagesLoaded().progress(function(){i.masonry("layout")})}$(document).ready(initMasonryGrids),window.addEventListener("pageshow",function(i){i.persisted&&initMasonryGrids()});
