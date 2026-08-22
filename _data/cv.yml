@@ -3,93 +3,244 @@
   contents:
     - name: Full Name
       value: Bhasura Suseen Gunawardhana
-    - name: Languages
-      value: English, Sinhala
+    - name: Website
+      links:
+        - name: bhasurasuseen.github.io
+          link: https://bhasurasuseen.github.io/
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: "PhD in Visual Computing & Interactive Media"
+      institution: "Texas A&M University — College Station, TX, USA"
+      year: "Aug 2024 - Present"
+      maindescription: "GPA 4.0/4.0 (Expected Graduation May 2028)"
+    - title: "MS in Computer Science"
+      institution: "University of Houston — TX, USA"
+      year: "Aug 2022 - Aug 2024"
+      maindescription: "GPA 3.934/4.0"
+    - title: "BS in Computer Science"
+      institution: "University of Colombo School of Computing (UCSC) — Colombo 07, Sri Lanka"
+      year: "Feb 2015 - Feb 2019"
+      maindescription: "GPA 3.39/4.0"
+    - title: "GCE A/L in Physical Science (Combined Mathematics, Physics, Chemistry)"
+      institution: "Royal College Colombo — Colombo 07, Sri Lanka"
+      year: "May 2010 - Dec 2013"
+    - title: "GCE O/L (Mathematics, Science and Technology, History, English, Art, Literature, Geography, Health Science, Religion)"
+      institution: "Royal College Colombo — Colombo 07, Sri Lanka"
+      year: "June 2004 - Dec 2009"
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Research Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Interactive Computer Graphics, Human-Computer Interaction (HCI), Extended Reality (XR), Visualization, Virtual Production, Animation Synthesis, Motion Capture, Volume Capture, Digital Twins, Gaming, Game-Based Learning, Deep Learning, Simulation, Agent-Based Modeling, Computer Vision, and Robotic Simulation."
+
+- title: Technical Skills
+  type: list_groups
+  contents:
+    - category: "Software Development & Programming"
+      items:
+        - name: "C++, Python, C#, R, Java, JavaScript, Unreal Engine, Unity3D, OpenGL, GLSL, HLSL, VTK, OpenCV, PyTorch, Git, SVN, Linux"
+    - category: "Creative Media & Design"
+      items:
+        - name: "Houdini, Autodesk Maya, Blender, Autodesk 3DS Max, ZBrush, Motion Builder, Adobe Photoshop, Adobe Illustrator, Adobe XD, DaVinci Resolve, Adobe Premiere Pro, Adobe After Effects"
+
+- title: Publications
+  type: list
+  contents:
+    - 'Gunawardhana, B.S., Zhang, Y., Sun, Q. and Deng, Z., 2024, October. <a href="https://bhasurasuseen.github.io/publications/">Toward User-Aware Interactive Virtual Agents: Generative Multi-Modal Agent Behaviors in VR</a>. In 2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) (pp. 1068-1077). IEEE.'
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: "Research Assistant — Virtual Production Institute"
+      institution: "College of Performance, Visualization & Fine Arts, Texas A&M University"
+      year: "Aug 2024 - Present"
+      description:
+        - "VVAI Lab: Developing a Mixed Reality Digital Twin Framework for Training, Accessibility, and Pipeline Optimization in Virtual Production."
+        - "Assisted Summer Industry Course (SIC) 2025 by troubleshooting technical problems related to the Unreal Engine pipeline. Developed TechViz tools. Conducted mini workshops on Virtual Scouting, Virtual Camera, Motion and Facial Capture."
+        - "Assisted in building and configuring the initial virtual production stages for VPI, including ICVFX workflows with a large LED volume, cinema cameras, motion tracking systems, and real-time rendering software."
+    - title: "VR Agent Conversation Animation Synthesis"
+      institution: "University of Houston — TX, USA"
+      year: "Aug 2022 - Aug 2024"
+      description:
+        - "Captured multimodal conversation data including full-body VICON motion capture, eye tracking, speech audio, and video."
+        - "Developed an Unreal Engine and LLM based VR conversation agent system."
+        - "Designed and trained a body and eye motion synthesis Generative AI (CVAE — Conditional Variational Auto Encoder) model."
+    - title: "Final Year Undergraduate Research — Individual Project"
+      year: "Feb 2018 - Feb 2019"
+      maindescription: 'Thesis Topic: "Simulation of climbing plants with twining behavior"'
+      description:
+        - "Developed an experimental setup to study the behavior of twining plants, creating a dataset of growth time-lapses and plant measurements."
+        - "Proposed a novel collision-based twining plant simulation model, enhancing the biomechanical aspects of existing models."
+        - "Conducted real-time simulations, evaluating both behavioral realism and computational efficiency."
+
+- title: Virtual Production Experience
+  type: time_table
+  contents:
+    - title: '"The Experiment", "Plunder" — Summer Industry Course Virtual Production Projects'
+      institution: "Unreal Pipeline Technician / TA"
+      year: "Summer 2025"
+      maindescription: "Tools & Technologies: Unreal Engine / ICVFX: Sony Verona LED Panels, Stype Camera Tracking, Sony VENICE/BURANO."
+    - title: '"Sixth Side" — Test Shoot for a Virtual Production Shortfilm in Pre-Production'
+      institution: "Writing, Directing, and Virtual Production Supervising"
+      year: "Spring 2025"
+      maindescription: "Tools & Technologies: Unreal Engine / ICVFX: Sony Verona LED Panels, Vicon Camera Tracking, Sony BURANO / DaVinci Resolve"
+    - title: '"The Elves and the Shoemaker" — Virtual Production Short'
+      institution: "Virtual Production Technician"
+      year: "Fall 2024"
+      maindescription: "Tools & Technologies: Unreal Engine / ICVFX: Sony Verona LED Panels, Vicon Camera Tracking, Sony BURANO"
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: "Unreal Engine Technician / TA — Summer Industry Course (SIC) 2025 in Virtual Production"
+      institution: "Texas A&M University, TX, USA"
+      year: "Summer 2025"
+    - title: "Instructional Assistant (IA) — Interactive Computer Graphics (COSC 4370/6372)"
+      institution: "University of Houston, TX, USA"
+      year: "Spring and Summer 2024"
+    - title: "Instructional Assistant (IA) — Interactive Computer Graphics (COSC 4370)"
+      institution: "University of Houston, TX, USA"
+      year: "Fall 2023"
+    - title: "Instructional Assistant (IA) — Software Design (COSC 4353/6353)"
+      institution: "University of Houston, TX, USA"
+      year: "Spring and Summer 2022"
+    - title: "Instructional Assistant (IA) — Computer Science and Programming (COSC 1336)"
+      institution: "University of Houston, TX, USA"
+      year: "Fall 2022"
+    - title: "Visiting Lecturer — Game Designing (MI 5015)"
+      institution: "Academy of Design, Colombo, Sri Lanka (affiliated with Northumbria University, Newcastle, UK)"
+      year: "Feb 2020 - July 2020"
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: "Senior Software Engineer"
+      institution: "SimCentric Technologies, Orion City IT Park, Colombo 09, Sri Lanka"
+      year: "June 2021 - July 2022"
+    - title: "Software Engineer"
+      institution: "SimCentric Technologies, Orion City IT Park, Colombo 09, Sri Lanka"
+      year: "Feb 2019 - May 2021"
+    - title: "SAF-TAC Project — Epic Mega Grant Recipient"
+      year: "May 2019 - July 2022"
+      maindescription: "VR/Desktop multiplayer application designed specifically for military simulation and training with essential simulation functions such as Exercise Control, Scenario Authoring, and After-Action Review. Tools & Technologies: C++ / Unreal Engine 4 / Unreal Blueprints / Blender"
+      description:
+        - "Contributed to the development of map and content modding infrastructure."
+        - "Contributed to iterative development of a hybrid (animation and IK driven) 3-point tracked full-body VR avatar system."
+        - "Developed 3D interaction systems and 3D user interfaces for VR users."
+        - "Developed 3D/2D scenario authoring/replay tools and user interfaces."
+        - "Developed camera, navigation, and switching systems for vehicles and characters."
+        - "Developed time-of-day and weather control features."
+        - "Created dynamic paths (aircraft and projectile) and shape-drawing plugins."
+        - "Initiated profiling, optimization processes, and multiplayer replication best practices to improve performance and concurrent player count."
+        - "Integrated an in-house haptic suit and ProTubeVR haptic weapon."
+        - "Carried out logic/content optimizations and configurations to support multiple VR devices (Oculus Rift/Rift S, Oculus Quest, Samsung Odyssey, HTC Vive, Varjo XR)."
+    - title: "SAF-Fires Project"
+      year: "Feb 2019 - April 2019"
+      maindescription: "Standards-based, image-generator-agnostic, and scalable Call-For-Fire and Close Air Support training simulation suitable for deployment in Joint Fires and accreditable Joint Terminal Attack Controller (JTAC) training simulators. Tools & Technologies: C / C++"
+      description:
+        - "Integrated the NVIDIA PhysX physics engine."
+        - "Developed a rotary-wing flight dynamic model capable of handling manual controls from standard joysticks."
+    - title: "Research & Development Intern"
+      institution: "Synopsys"
+      year: "Aug 2017 - Jan 2018"
+      maindescription: "Tools & Technologies: C / C++ / Python / Verilog / VHDL / shell script / Linux"
+      description:
+        - "Participated in training sessions and exercises on C, C++, register-transfer level (RTL) languages (Verilog, VHDL), electronic design automation (EDA) technologies, and ASIC/SoC pipelines."
+        - "Implemented new LINT rules and RTL test cases for an electronic design and verification tool."
+        - "Analysed and fixed memory issues and contributed to developing regression test infrastructure."
+        - 'Contributed to R&D work to create a "Machine learning framework to predict which LINT rules to run on an electronic design".'
+
+- title: Awards
+  type: time_table
+  contents:
+    - year: "2017"
+      items:
+        - 'Selected for the "Spiralation" Startup Support Program — Bamboo Game — ICT Agency of Sri Lanka (ICTA)'
+    - year: "2016"
+      items:
+        - "1st Runner-up — Measure Wire — Microsoft Imagine Cup Sri Lanka, Innovation Category"
+        - "Finalist — Game of Thoughts — Microsoft Imagine Cup Sri Lanka, Games Category"
+    - year: "2015"
+      items:
+        - "2nd Runner-up — LOL Game — Microsoft Imagine Cup Sri Lanka, Games Category"
+    - year: "2011"
+      items:
+        - 'Best Direction, Best Script — Theater Play "Right is Wrong" — Royal College Colombo Inter House Sinhala Drama Competition'
+
+- title: 3D Modeling & Animation
+  type: time_table
+  contents:
+    - title: '"FrogSized" 3D animation short — Responsible for all aspects'
+      year: "Fall 2024"
+      maindescription: "Tools & Technologies: Unreal Engine / Maya / Houdini / Substance Painter / DaVinci Resolve"
+    - title: "3D animation advertisement for a digital banking solution"
+      year: "May 2022"
+      maindescription: "Tools & Technologies: Unreal Engine / Blender / Adobe After Effects"
+
+- title: Technical Projects
+  type: time_table
+  contents:
+    - title: "Interactive VR Volume Rendering to explore medical data"
+      year: "Fall 2023"
+      maindescription: "Tools & Technologies: Unreal Engine 5, C++, HLSL"
+    - title: 'VR game "All Elephants Go to Heaven", developed for Epic Mega Jam 2020'
+      year: "Dec 2020"
+      maindescription: "Tools & Technologies: Unreal Engine 4, C++"
+    - title: 'Desktop multiplayer game "Under The Ice", developed for Unreal Spring Jam 2020'
+      year: "July 2020"
+      maindescription: "Tools & Technologies: Unreal Engine 4, C++"
+    - title: "Hospital channelling system for Southern Lanka Hospitals"
+      year: "Jan 2018 - Aug 2018"
+      maindescription: "Tools & Technologies: Node.js / Feathers / MongoDB / Angular 5 / Angular Material / Ngx Charts / AWS"
+    - title: 'Smart institute management solution "SIMS"'
+      year: "Jan 2018 - Aug 2018"
+      maindescription: "Tools & Technologies: Node.js / Feathers / MongoDB / Angular 5 / Angular Material / Ngx Charts / AWS"
+    - title: 'Desktop multiplayer game "Bamboo Game", developed with the Spiralation Startup program'
+      year: "2017 - 2018"
+      maindescription: "Tools & Technologies: Unreal Engine 4, C++"
+    - title: "Hospital office management system for Panadura Base Hospital"
+      year: "2016"
+      maindescription: "Tools & Technologies: HTML / CSS / JavaScript / D3.js / PHP / MySQL / Azure"
+    - title: 'IOT solution "Measure Wire" — a mobile app and device for taking everyday measurements'
+      year: "Feb 2016 - May 2016"
+      maindescription: "Tools & Technologies: Arduino / Android / Java"
+    - title: 'Two-player game based on cellular automata, "Game of Thoughts"'
+      year: "Feb 2016 - May 2016"
+      maindescription: "Tools & Technologies: Unity Game Engine / C# / 3ds Max"
+    - title: '"LOL Game" — a mobile game where players make characters laugh by tapping'
+      year: "Feb 2015 - May 2015"
+      maindescription: "Tools & Technologies: Unity Game Engine / C# / Adobe Illustrator"
+
+- title: Sessions & Workshops
+  type: time_table
+  contents:
+    - title: "Visiting session on Unreal Engine 4 for UCSC 3rd year game development module"
+      year: "May 2020"
+    - title: "Unreal Engine 4 sessions for game development — Vocational Training Institute, Colombo 06, Sri Lanka"
+      year: "Jan 2020"
+    - title: "Unreal Engine 4 sessions for game development — Informatics Institute of Technology, Colombo 05, Sri Lanka"
+      year: "Dec 2019"
+    - title: 'Mentor at "Game Rush" game hackathon, organized by UCSC IEEE student branch'
+      year: "Dec 2019"
+    - title: 'Session on UE4 game development at "Game Rush", organized by UCSC IEEE student branch'
+      year: "Nov 2019"
+
+- title: Leadership
+  type: time_table
+  contents:
+    - title: "Senior Prefect"
+      institution: "Royal College, Colombo 07"
+      year: "Sept 2012 - Dec 2013"
+    - title: "Chairman"
+      institution: "Royal College Colombo Astronomical Society"
+      year: "Jan 2011 - Dec 2011"
+    - title: "Assistant Chairman"
+      institution: "Royal College Colombo Sinhala Drama Society"
+      year: "Jan 2010 - Dec 2010"
+
+- title: Hobbies
+  type: list
+  contents:
+    - "Traveling, Reading, Watching Movies, Story & Script Writing, Observational Astronomy, Archery, Gaming."

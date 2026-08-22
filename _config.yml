@@ -8,9 +8,9 @@ middle_name: Suseen
 last_name: Gunawardhana
 email: bhasuras@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Bhasura Suseen Gunawardhana — portfolio of a computer graphics & extended reality (XR) engineer.
-  MS in Computer Science (University of Houston), 3+ years in training & simulation engineering.
-  Explore technical projects, portfolio, publications, and CV.
+  Bhasura Suseen Gunawardhana — PhD student in Visual Computing & Interactive Media at Texas A&M
+  University, working on XR and virtual production. MS in Computer Science (University of Houston),
+  3+ years in training & simulation engineering. Explore portfolio, publications, and CV.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

@@ -35,5 +35,5 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hello, I'm a researcher with a keen interest in the creative and technical realms, especially where they intersect in interactive computer graphics and extended reality. My goal is to explore and expand human experiences through these innovative mediums. My passion for immersive technology drives me to discover new ways to connect and engage with the world, blurring the lines between the virtual and the real.
 
- I earned my Master's degree in Computer Science from the University of Houston, TX, USA. My journey also includes over 3 years of professional experience in the training and simulation industry as an Engineer, following my Bachelor’s degree in Computer Science from the University of Colombo, Sri Lanka.
+ I am currently pursuing a Ph.D. in Visual Computing & Interactive Media at Texas A&M University, working with the Virtual Production Institute. I earned my Master's degree in Computer Science from the University of Houston, TX, USA. My journey also includes over 3 years of professional experience in the training and simulation industry as a Software Engineer, following my Bachelor’s degree in Computer Science from the University of Colombo, Sri Lanka.
 
